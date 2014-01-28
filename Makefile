@@ -17,4 +17,4 @@ build: Rehash.c
 	gcc -Wall Rehash.c -o Rehash
 
 clean:
-	$(RM) Rehash
+	rm -f Rehash
